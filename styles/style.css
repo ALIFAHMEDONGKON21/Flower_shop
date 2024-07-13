@@ -80,7 +80,7 @@ font-size: 60px;
 }
 .frist-image,.second-image,.third-image
 {
-    height: 480;
+    height: 390px;
     width: 33%;
     display: flex;
     flex-direction: column;
@@ -88,22 +88,56 @@ font-size: 60px;
     justify-items: center;
     align-items: center;
     border-radius: 50% 50% 0 0;
-    /* border: 2px solid red; */
+    
+}
+.third-image{
+    border-radius: 50% 50% 0 0;
 }
 .frist-image img,.second-image img,.third-image img{
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 90%;
 }
 
 #frist{
     background-color:  rgba(167, 33, 98, 0.15);
 }
 #second{
-   
-
    background-color:  rgba(5, 151, 160, 0.15);
-   border-radius: 50% 50% 0 0;
+ 
 }
 #third{
     background-color: rgba(71, 125, 17, 0.15);
+}
+.office-work{
+    width: 90%;
+    margin: 0% auto;
+    height: 240px;
+    margin-top: 50px;
+    /* border: 2px solid red; */
+    display: flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+   
+
+}
+
+.Delivery,.support,.growers{
+    width: 372px;
+    height: 172px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    /* border: 2px solid rebeccapurple; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.Delivery p,
+.support p,.growers p{
+    display:flex;
+    justify-items: center;
+    align-items: center;
+    margin-top: 20px;
 }
