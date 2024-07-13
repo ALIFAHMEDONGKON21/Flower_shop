@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+}
+.banner-section-container{
+    background: rgba(229, 84, 115, 0.1);
+    max-width: 1449;
+    height: 555px;
+    display: flex;
+    /* border: 2px solid rebeccapurple; */
+}
+.banner-container{
+    display: flex;
+    width: 90%;
+    margin: 0% auto;
+    /* border: 2px solid seagreen; */
+}
+.banner-text-container{
+    /* border: 2px solid blueviolet; */
+    height: 550px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.banner-text-container button{
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    margin-top: 15px;
+    width: 140px;
+    height: 40px;
+}
+.banner-text-container h1{
+font-size: 60px;
+}
+.banner-photo_container{
+    /* border:2px solid orange; */
+    height: 480px;
+    
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-photo_container img{
+   width: 50%;
+   height: 480px;
+}
+.featured-image-container{
+    width: 90%;
+    margin: 0% auto;
+    height: 550px;
+    margin-top: 140px;
+    /* border: 2px solid rebeccapurple; */
+}
+.featured-text-contanier{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 50%;
+    margin: 0% auto;
+    
+}
+.featured-images{
+    display: flex;
+    gap: 20px;
+    margin-top: 70px;
+    /* border: 2px solid red; */
+}
+.frist-image,.second-image,.third-image
+{
+    height: 480;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: column; */
+    justify-items: center;
+    align-items: center;
+    border-radius: 50% 50% 0 0;
+    /* border: 2px solid red; */
+}
+.frist-image img,.second-image img,.third-image img{
+    width: 100%;
+    height: 100%;
+}
+
+#frist{
+    background-color:  rgba(167, 33, 98, 0.15);
+}
+#second{
+   
+
+   background-color:  rgba(5, 151, 160, 0.15);
+   border-radius: 50% 50% 0 0;
+}
+#third{
+    background-color: rgba(71, 125, 17, 0.15);
+}
