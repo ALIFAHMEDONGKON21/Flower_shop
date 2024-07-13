@@ -18,6 +18,7 @@ body{
     /* border: 2px solid rebeccapurple; */
 }
 .banner-container{
+    
     display: flex;
     width: 90%;
     margin: 0% auto;
@@ -218,7 +219,6 @@ font-size: 60px;
 .deals{
     width: 90%;
     margin: 0% auto;
-    border: 2px solid red;
     height: 400px;
     background-image: url(/images/latest-deals-bg.png);
     background-position: center;
@@ -249,4 +249,39 @@ font-size: 60px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     margin-top: 10px;
 }
-  
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-title {
+    margin: 0;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.footer-title .highlight {
+    color: #ff6384; /* Light pink color */
+}
+
+.footer-text {
+    margin: 10px 0;
+}
+
+.footer-copyright {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
